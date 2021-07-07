@@ -17,7 +17,7 @@
   "shortcuts": [
     {
       "name": "Test Shortcut",
-      "url": "/shortcut.html",
+      "url": "./shortcut.html",
       "icons": [
         {
           "src": "./icon-192x192.png",
