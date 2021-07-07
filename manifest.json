@@ -1,0 +1,37 @@
+{
+  "short_name": "PWA Test",
+  "name": "PWA Test",
+  "icons": [
+    {
+      "src": "./icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Test Shortcut",
+      "url": "/shortcut.html",
+      "icons": [
+        {
+          "src": "./icon-192x192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "start_url": "/?source_location=pwa",
+  "background_color": "#EC2C22",
+  "display_override": "minimal-ui",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#EC2C22",
+  "description": "Test PWA",
+  "prefer_related_applications": false
+}

@@ -1,11 +1,12 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Basic HTML5 Template</title>
+  <title>PWA Test</title>
   <meta name="description" content="PWA Test">
   <meta name="author" content="Colin Knowles">
 
@@ -20,6 +21,19 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+  
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./serviceworker.js')
+        .then((registration) => {
+          console.log("registration", registration);
+        })
+        .catch((error) => {
+          console.log('Registration failed with ' + error);
+        });
+    }
+  </script>
 </head>
 
 <body>
@@ -27,4 +41,5 @@
 
   Hi
 </body>
+
 </html>
