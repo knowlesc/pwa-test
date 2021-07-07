@@ -29,7 +29,6 @@
   ],
   "start_url": "/pwa-test/?source_location=pwa",
   "background_color": "#EC2C22",
-  "display_override": "minimal-ui",
   "display": "standalone",
   "theme_color": "#EC2C22",
   "description": "Test PWA",
