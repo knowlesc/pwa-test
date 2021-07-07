@@ -5,7 +5,8 @@
     {
       "src": "./icon-192x192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "./icon-512x512.png",
@@ -30,7 +31,7 @@
   "background_color": "#EC2C22",
   "display_override": "minimal-ui",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/pwa-test",
   "theme_color": "#EC2C22",
   "description": "Test PWA",
   "prefer_related_applications": false
